@@ -2,115 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc28cbc-5d80-4aa3-8bb3-eb588a031365" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/css/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/css/util.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/animated.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/core.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/fixed-width.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/font-awesome.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/icons.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/larger.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/list.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/mixins.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/path.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/screen-reader.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/stacked.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/less/variables.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_animated.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_core.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_icons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_larger.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_list.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_path.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-Black.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-BlackItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-Bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-BoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-ExtraBold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-ExtraLight.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-Italic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-Light.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-LightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-Medium.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-MediumItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-Regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-SemiBold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-Thin.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/Montserrat-ThinItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/montserrat/OFL.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-Black.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-BlackItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-Bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-BoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-ExtraBold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-ExtraBoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-ExtraLight.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-ExtraLightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-Italic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-Light.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-LightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-Medium.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-MediumItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-Regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-SemiBold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-SemiBoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-Thin.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/fonts/poppins/Poppins-ThinItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/images/icons/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/images/img-01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/js/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/animate/animate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/css/bootstrap-grid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/css/bootstrap-grid.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/css/bootstrap-grid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/css/bootstrap-reboot.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/css/bootstrap-reboot.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/css/bootstrap-reboot.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/js/popper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/js/popper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/bootstrap/js/tooltip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/css-hamburgers/hamburgers.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/css-hamburgers/hamburgers.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/jquery/jquery-3.2.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/select2/select2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/select2/select2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/select2/select2.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/select2/select2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Login/vendor/tilt/tilt.jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/register/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/register/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/register/scss/style.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/db/models.js" afterPath="$PROJECT_DIR$/db/models.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" afterPath="$PROJECT_DIR$/frontend/index.html" />
+      <change beforePath="$PROJECT_DIR$/frontend/Login/index.html" afterPath="$PROJECT_DIR$/frontend/Login/index.html" />
+      <change beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -128,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -137,14 +34,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="98" column="39" lean-forward="false" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3110#3116#0" expanded="true" />
-                <element signature="e#3116#3122#0" expanded="true" />
-                <element signature="e#3122#3128#0" expanded="true" />
-                <element signature="e#3128#3134#0" expanded="true" />
+                <element signature="e#3108#3114#0" expanded="true" />
+                <element signature="e#3114#3120#0" expanded="true" />
+                <element signature="e#3120#3126#0" expanded="true" />
+                <element signature="e#3126#3132#0" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -155,8 +52,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/Login/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="72">
+              <caret line="69" column="68" lean-forward="false" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/register/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/register/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2322">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -177,8 +94,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -189,9 +106,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/db/models.js" />
         <option value="$PROJECT_DIR$/frontend/index.html" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/frontend/register/index.html" />
         <option value="$PROJECT_DIR$/frontend/Login/index.html" />
       </list>
     </option>
@@ -360,6 +278,26 @@
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="Login" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myolx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myolx" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myolx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myolx" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myolx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myolx" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -377,6 +315,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/register" />
       <recent name="$PROJECT_DIR$/frontend" />
     </key>
   </component>
@@ -408,12 +347,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515818800748</updated>
-      <workItem from="1515818804328" duration="7235000" />
+      <workItem from="1515818804328" duration="8607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7235000" />
+    <option name="totallyTimeSpent" value="8607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -424,9 +363,9 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -457,26 +396,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/models.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -489,26 +412,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/models.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="98" column="39" lean-forward="false" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3110#3116#0" expanded="true" />
-            <element signature="e#3116#3122#0" expanded="true" />
-            <element signature="e#3122#3128#0" expanded="true" />
-            <element signature="e#3128#3134#0" expanded="true" />
+            <element signature="e#3108#3114#0" expanded="true" />
+            <element signature="e#3114#3120#0" expanded="true" />
+            <element signature="e#3120#3126#0" expanded="true" />
+            <element signature="e#3126#3132#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/register/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/register/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2322">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/register/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1511">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/Login/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state relative-caret-position="72">
+          <caret line="69" column="68" lean-forward="false" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
           <folding />
         </state>
       </provider>
