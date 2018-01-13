@@ -6,8 +6,3 @@ const db=new sequelize('olx','olxuser','olxpass',{
     dialect:'mysql'
 })
 
-const categories=db.define('category',{
-property:{
-    type:
-}
-})
