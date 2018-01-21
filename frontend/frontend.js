@@ -23,7 +23,7 @@ $(function () {
     })
     socket.on('msg', function(data) {
         chats.append(
-            `<li>${data.sender} : ${data.message}</li>`
+            `<li  class="list-group-item list-group-item-primary"><p align="left"><b>${data.sender}</b> : ${data.message}</p></li>`
         )
     })
 })
