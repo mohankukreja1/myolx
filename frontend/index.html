@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OLX</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        form.example input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid grey;
+            float: left;
+            width: 80%;
+            background: #f1f1f1;
+        }
+
+        form.example button {
+            float: left;
+            width: 20%;
+            padding: 10px;
+            background: #2196F3;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none;
+            cursor: pointer;
+        }
+
+        form.example button:hover {
+            background: #0b7dda;
+        }
+
+        form.example::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .footer {
+            padding: 50px 0 20px 0;
+            background-color: #35404f;
+            color: #878c94;
+        }
+        .footer .title{text-align: left;color:#fff;font-size:25px;}
+
+
+        .footer .social-icon{padding:0px;margin:0px;}
+        .footer .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+        .footer .acount-icon a{display:block;color:#fff;font-size:18px;padding:5px;text-decoration:none;}
+        .footer .acount-icon .fa{margin-right:25px;}
+
+
+        .footer .category a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            padding: 5px 20px;
+            margin: 1px;
+            border-radius:4px;
+            margin-top: 6px;
+            background-color: black;
+            border: solid 1px #fff;
+        }
+
+        .footer .payment{margin:0px;padding:0px;list-style-type:none}
+        .footer .payment li{list-style-type:none}
+        .footer .payment li a {
+            text-decoration: none;
+            display: inline-block;
+            color: #fff;
+            float: left;
+            font-size: 25px;
+            padding: 10px 10px;
+        }
+
+        .card img{
+            height:200px;
+        }
+    </style>
+
+</head>
+<body >
+<header style="margin: 20px;">
+    <div class="row">
+        <div class="col-4">
+            <img src="./images/olxlogo.png"> <span><h3>India's Largest Marketplace</h3></span>
+        </div>
+
+        <div class="col-4">
+
+        </div>
+        <div class="col-4">
+            <a href="./Login/index.html" class="tdnone" id="topLoginLink">
+            <span class="icon inlblk accountshape vtop fleft"></span>
+            <span class="link inlblk acc-user-name fleft"><strong>My Account</strong></span>
+        </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="./form/index.html" class="btn btn-primary">Submit A Free Ad</a>
+
+        </div>
+    </div>
+
+
+
+</header>
+<br>
+<hr>
+<form class="example" action="/div" method="get" enctype="multipart/form-data">
+    <div class="container" style="margin: 15px;">
+        <div class="row">
+            <div class="col-4">  <div class="form-group" style="height: 50px;">
+
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Property</option>
+                    <option>Cars</option>
+                    <option>Electronic appliances</option>
+                    <option>Furniture</option>
+                    <option>Jobs</option>
+                    <option>Mobiles</option>
+                    <option>Bikes</option>
+                    <option>Books</option>
+                    <option>Fashion</option>
+                    <option>Pets</option>
+                    <option>Services</option>
+
+                </select>
+            </div></div>
+
+            <div class="col-4"><input type="text" placeholder="Search.." name="search" width="100px;"></div>
+
+            <div class="col-4"><button type="submit"><i class="fa fa-search"></i></button></div>
+        </div>
+    </div>
+
+
+
+
+</form>
+<br>
+<br>
+<div class="container">
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="./images/property.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Property</h5>
+                <a href="/property.html" type="button" style="color: white;" class="btn btn-primary">Know more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./images/car.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Cars</h5>
+                <a href="/car.html" type="button" style="color: white;" class="btn btn-primary">Know more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./images/electronics.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Electronics</h5>
+                <a href="/electronics.html" style="color: white;" type="button" class="btn btn-primary">Know more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./images/jobs.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Jobs</h5>
+                <a href="/jobs.html" style="color: white;" type="button" class="btn btn-primary">Know more</a>
+            </div>
+        </div>
+    </div><br><br>
+    <div class="card-deck">
+
+        <div class="card">
+            <img class="card-img-top" src="./images/mobile.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Mobile</h5>
+                <a href="/mobile.html" style="color: white;" type="button" class="btn btn-primary">Know more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./images/bikes.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Bikes</h5>
+                <a href="/bike.html" style="color: white;" type="button" class="btn btn-primary">Know more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./images/books.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Books</h5>
+                <a href="/book.html" style="color: white;" type="button" class="btn btn-primary">Know more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./images/fashion.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Fashion</h5>
+                <a href="/fashion.html" style="color: white;" type="button" class="btn btn-primary">Know more</a>
+            </div>
+        </div>
+    </div><br><br>
+    <div class="row">
+        <div class=" col-md-12 col-lg-3">
+        <div class="card">
+            <img class="card-img-top" src="./images/pets.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Pets</h5>
+                <a href="/pets.html" style="color: white;" type="button" class="btn btn-primary">Know more</a>
+            </div>
+        </div></div>
+        <div class="col-md-12 col-lg-3">
+        <div class="card">
+            <img class="card-img-top" src="./images/services.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Services</h5>
+                <a href="/services.html" style="color: white;" type="button" class="btn btn-primary">Know more</a>
+            </div>
+        </div></div>
+    </div>
+</div>
+<hr>
+<hr>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h4 class="title">OLX</h4>
+                <p>OLX Group is a global online marketplace (headquartered in Amsterdam, and owned by South African media and technology group Naspers),[1] operating in 45 countries,[2] and is the largest online classified ads company in India, Brazil, Pakistan, Bulgaria, Poland[1], Portugal and Ukraine[3]. It was founded by Alec Oxenford and Fabrice Grinda in 2006.</p>
+                <ul class="social-icon">
+                    <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" class="social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" class="social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" class="social"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    <a href="#" class="social"><i class="fa fa-google" aria-hidden="true"></i></a>
+                    <a href="#" class="social"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h4 class="title">My Account</h4>
+                <span class="acount-icon">
+            <a href="/wishlist.html"><i class="fa fa-heart" aria-hidden="true"></i> Wish List</a>
+
+          </span>
+            </div>
+            <div class="col-sm-3">
+                <h4 class="title">Category</h4>
+                <div class="category">
+                    <a href="/property.html">Property</a>
+                    <a href="/car.html">Car</a>
+                    <a href="/electronics.html">electronics</a>
+                    <a href="/jobs.html">jobs</a>
+                    <a href="/mobile.html">mobile</a>
+                    <a href="/bike.html">bike</a>
+                    <a href="/book.html">book</a>
+                    <a href="/fashion.html">fashion</a>
+                    <a href="/pets.html">Pets</a>
+                    <a href="/services.html">Services</a>
+
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <h4 class="title">Payment Methods</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <ul class="payment">
+                    <li><a href="#"><i class="fa fa-cc-amex" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-paypal" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-cc-visa" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row text-center"> © 2018. Made with  by Mohan Kukreja.</div>
+    </div>
+
+
+</footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>

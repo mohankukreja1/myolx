@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"  crossorigin="anonymous"></script>
+
+</head>
+<body>
+<center><img src="../images/olxlogo.png"> </center>
+
+<br>
+<center><h1 style="color: blue;">ADMIN PAGE</h1></center>
+<center style="color: cyan;"><h2>Post A Free Ad</h2></center>
+<div class="container" style="margin: 40px;">
+    <form id="form" action="/div" method="post" enctype="multipart/form-data">
+
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validationServer01">Main Info</label>
+                <input type="text" name="maininfo" class="form-control is-valid" id="validationServer01" placeholder="First name" value="INFO" required>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="validationServer02">Additional Info</label>
+                <input type="text" name="addinfo" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="INFO" required>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="validationServerUsername">Price</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend3">₹</span>
+                    </div>
+                    <input type="text" name="price" class="form-control is-invalid" id="validationServerUsername" placeholder="Price" aria-describedby="inputGroupPrepend3" required>
+                    <div class="invalid-feedback">
+                        Price
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="validationServer03">Phone</label>
+                <input type="text" name="phone" class="form-control is-invalid" id="validationServer03" placeholder="Phone" required>
+                <div class="invalid-feedback">
+                    Phone number
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Specify Type</label>
+                <select name="type" id="select" class="form-control" id="exampleFormControlSelect1">
+                    <option>Property</option>
+                    <option>Cars</option>
+                    <option>Electronic appliances</option>
+
+                    <option>Jobs</option>
+                    <option>Mobiles</option>
+                    <option>Bikes</option>
+                    <option>Books</option>
+                    <option>Fashion</option>
+                    <option>Pets</option>
+                    <option>Services</option>
+
+                </select>
+            </div>
+        </div>
+    <div class="form-row">
+        <div class="custom-file">
+            <input type="file" class="btn btn-primary" name="pic" >
+
+        </div>
+    </div>
+        <br>
+
+        <button id="but" class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+</div>
+<script>
+    $(function () {
+        $('#but').click(function () {
+
+        })
+    })
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>

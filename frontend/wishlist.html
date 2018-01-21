@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wishlist</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+<script>
+    $(function () {
+        let div1=$('#maindiv');
+        $.get('/gettocart' , (result)=>{
+            console.log(result);
+            div1.empty();
+            for(add of result){
+                let newele=$(` <div class="media">
+
+        <img class="align-self-center mr-3" src="${add.image}" alt="Generic placeholder image">
+        <div class="media-body">
+        <h1 style="color: blue">${add.type}</h1>
+            <b> <p align="right" style="color: orangered;">₹${add.price}</p></b>
+            <h5 class="mt-0">${add.maininfo}</h5>
+            <p>${add.addinfo}</p>
+            <b> <p align="right" style="color: blue;">PHONE:</p></b>
+            <b> <p align="right" style="color: blue;">${add.phone}</p></b>
+            <p  style="color: blue;"><img src="./images/verified.jpg" height="100" width="100"></p>
+            <br>
+
+            <hr>
+
+
+
+
+        </div>
+
+    </div>`)
+                div1 .prepend(newele);
+            }
+
+        })
+
+    })
+</script>
+</head>
+<body>
+<center><h1 style="color: blueviolet">WISHLIST</h1></center>
+<center><img src="./images/shopping.png"></center>
+<hr>
+<div class="container" id="maindiv" style="margin: 40px">
+
+
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+</body>
+</html>

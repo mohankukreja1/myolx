@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>property</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            let check=0;
+            var arr=[];
+            arr.push(null);
+            let count=-1;
+            var list=$('#list');
+
+            $.get('/property',(result)=>{
+                list.empty();
+                for(add of result){
+                    count++;
+                    arr.push(add);
+                    let newitem=$(`
+<li><div class="media">
+  <img class="align-self-center mr-3" src="${add.image}" alt="Generic placeholder image">
+  <div class="media-body">
+ <b> <p align="right" style="color: orangered;">₹${add.price}</p></b>
+    <h5 class="mt-0">${add.maininfo}</h5>
+    <p>${add.addinfo}</p>
+    <b> <p align="right" style="color: blue;">PHONE:</p></b>
+    <b> <p align="right" style="color: blue;">${add.phone}</p></b>
+<p  style="color: blue;"><img src="./images/verified.jpg" height="100" width="100"></p>
+<br>
+<button my-div="${add.id}" class="gg btn btn-primary">ADD TO CART</button>
+
+
+
+
+
+    </div>
+
+</div>
+</li>
+<hr>`)
+                    list .prepend(newitem);
+                }
+                $('button.gg').click(function () {
+                    var temp=$(this);
+                    var it=temp.attr('my-div');
+                    console.log(it);
+                    $.post('/addtocart',{
+                        obj:arr[it],
+                        type:"property"
+                    })
+
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+<center><img src="./images/olxlogo.png"></center>&nbsp;&nbsp;&nbsp;&nbsp;<p align="center"><a href="/" class="btn btn-primary">Go Back-></a></p>
+<br>
+<hr>
+<center><img src="./images/property.jpg"></center>
+<br>
+<hr>
+<center><h2>ALL ADDS</h2></center>
+<br>
+<hr>
+<ul id="list" style="margin: 40px;">
+
+
+</ul>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>
