@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="frontend.js"></script>
+</head>
+
+
+<body>
+<div id="loginbox">
+    <input type="text" id="username">
+    <button id="login">LOGIN</button>
+</div>
+
+<div id="chatbox" style="display: none">
+    <input type="text" id="message">
+    <button id="send">SEND</button>
+    <ul id="chats">
+
+    </ul>
+
+</div>
+</body>
+</html>

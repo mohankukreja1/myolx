@@ -1,5 +1,11 @@
 const express=require('express')
 const path=require('path')
+const http = require('http')
+const socketio = require('socket.io')
+const app=express();
+const server = http.Server(app)
+//The socket.io server
+const io = socketio(server)
 
 const propetyroute=require('./route/property').route
 const carroute=require('./route/car').route
@@ -14,8 +20,8 @@ const serviceroute=require('./route/services').route
 const divroute=require('./route/divroute').route
 const cart=require('./route/cart').route
 const getcart=require('./route/getcart').route
-const app=express();
 
+const users = {}
 app.use(express.json())
 app.use(express.urlencoded({extended:true}));
 app.set('view engine','hbs');
@@ -36,6 +42,22 @@ app.use('/div',divroute);
 app.use('/addtocart',cart);
 app.use('/gettocart',getcart);
 
-app.listen(2222,()=>{
+
+io.on('connection', function (socket) {
+    console.log("Socket created :" + socket.id)
+    socket.on('msg', function (data) {
+        io.emit('msg', {
+            sender: users[socket.id],
+            message: data.message
+        })
+    })
+    socket.on('login', function (data) {
+        users[socket.id] = data.username
+        socket.emit('logged_in')
+    })
+
+})
+
+server.listen(2222,()=>{
     console.log('server started at port 2222');
 })
