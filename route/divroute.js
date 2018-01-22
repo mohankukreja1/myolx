@@ -188,7 +188,10 @@ route.get('/',(req,res)=> {
                     maininfo:`${req.query.search}`
                 }
             }).then((result)=>{
-                console.log(result);
+                console.log(result)
+                res.render('search',{
+                    result:result
+                });
             }).catch((err)=>{
                 console.log(err);
             })
