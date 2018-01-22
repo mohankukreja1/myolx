@@ -175,7 +175,27 @@ route.post('/',(req,res)=> {
 
     })
 });
+route.get('/',(req,res)=> {
+    upload(req, res, function (err) {
+        if (err) {
+            // An error occurred when uploading
+            console.log(err);
+            return;
+        }
+        if(req.query.select=="Property"){
+            property.findAll({
+                where:{
+                    maininfo:`${req.query.search}`
+                }
+            }).then((result)=>{
+                console.log(result);
+            }).catch((err)=>{
+                console.log(err);
+            })
+        }
 
+    })
+});
 exports=module.exports={
     route
 }
